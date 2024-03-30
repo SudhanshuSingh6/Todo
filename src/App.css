@@ -1,0 +1,17 @@
+.todo-list {
+  max-width: 54rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 6rem;
+}
+
+.list-footer-mobile {
+  margin-top: 1.6rem;
+  padding: 0;
+}
+
+@media screen and (min-width: 500px) {
+  .list-footer-mobile {
+    display: none;
+  }
+}

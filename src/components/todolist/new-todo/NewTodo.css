@@ -1,0 +1,42 @@
+.new-todo {
+  display: flex;
+  align-items: center;
+}
+
+.m-50 {
+  margin-top: 2.4rem;
+}
+
+.new-todo input {
+  display: inline-block;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: none;
+  margin-left: 2.5rem;
+  width: 100%;
+  color: var(--color-list-item);
+  font-weight: 400;
+}
+
+.new-todo input:focus {
+  outline: none;
+}
+
+.new-todo input:focus::placeholder {
+  color: transparent;
+}
+
+.circle {
+  height: 2.6rem;
+  max-width: 2.6rem;
+  width: 100%;
+  border: var(--color-circle-unfocus) 1px solid;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 375px) {
+  .m-50 {
+    margin-top: 3.5rem;
+  }
+}
